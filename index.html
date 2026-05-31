@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Heroic — Privacy Policy</title>
+  <style>
+    :root {
+      --ink: #1a1a1a;
+      --muted: #5a5a5a;
+      --rule: #e6e6e6;
+      --accent: #c8102e;
+      --bg: #fafafa;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+      color: var(--ink);
+      background: var(--bg);
+      line-height: 1.55;
+      -webkit-font-smoothing: antialiased;
+    }
+    .wrap {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 48px 24px 96px;
+    }
+    header {
+      border-bottom: 1px solid var(--rule);
+      padding-bottom: 24px;
+      margin-bottom: 32px;
+    }
+    h1 {
+      font-size: 32px;
+      margin: 0 0 8px;
+      letter-spacing: -0.02em;
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 14px;
+    }
+    h2 {
+      font-size: 20px;
+      margin-top: 40px;
+      margin-bottom: 12px;
+      letter-spacing: -0.01em;
+    }
+    h3 {
+      font-size: 16px;
+      margin-top: 24px;
+      margin-bottom: 8px;
+    }
+    p, li { font-size: 16px; }
+    ul { padding-left: 22px; }
+    li { margin-bottom: 6px; }
+    a { color: var(--accent); }
+    code {
+      background: #efefef;
+      padding: 1px 6px;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+    .summary {
+      background: #fff;
+      border: 1px solid var(--rule);
+      border-radius: 10px;
+      padding: 18px 22px;
+      margin-top: 16px;
+    }
+    .summary p { margin: 0 0 8px; }
+    .summary p:last-child { margin-bottom: 0; }
+    footer {
+      margin-top: 64px;
+      padding-top: 24px;
+      border-top: 1px solid var(--rule);
+      color: var(--muted);
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Heroic — Privacy Policy</h1>
+      <div class="meta">Effective date: May 31, 2026</div>
+    </header>
+
+    <div class="summary">
+      <p><strong>Short version:</strong> Heroic does not run servers. Your workout logs and bodyweight history are stored on your device and in <em>your</em> private iCloud account using Apple's CloudKit. We do not collect, see, or transmit your data. There are no analytics SDKs, no advertising, and no third-party tracking.</p>
+    </div>
+
+    <h2>1. Who we are</h2>
+    <p>Heroic ("the app", "we", "us") is an iOS strength-training app developed and operated by <strong>Ahmet Adem</strong> as an individual developer. You can reach the developer at <a href="mailto:ahmet.a.adem@gmail.com">ahmet.a.adem@gmail.com</a>.</p>
+
+    <h2>2. Data we process</h2>
+    <p>Heroic processes the following categories of data <strong>locally on your device</strong> and, if you are signed into iCloud, syncs them to your personal iCloud account:</p>
+    <ul>
+      <li><strong>Workout data</strong> — the exercises, sets, reps, and weights you log during your training sessions, plus computed values such as next-week target weights, warmup loads, and estimated one-rep max.</li>
+      <li><strong>Body metrics</strong> — bodyweight entries that you enter manually or that the app reads from Apple Health (with your permission).</li>
+      <li><strong>App preferences</strong> — your program selection, units (kg/lb), and similar UI settings.</li>
+      <li><strong>Trial-period state</strong> — the date you first opened a program, used to determine whether the free-week period is still active. This is stored in iCloud Key-Value Storage so reinstalling the app does not reset your trial.</li>
+    </ul>
+
+    <h2>3. How that data is stored</h2>
+    <h3>On your device</h3>
+    <p>All workout logs, body metrics, and preferences live in the app's local database on your iPhone.</p>
+
+    <h3>In your private iCloud</h3>
+    <p>If you are signed into iCloud, Heroic uses Apple's <strong>CloudKit private database</strong> to sync the data across your own Apple devices and to back it up. The CloudKit private database is scoped to <em>your</em> Apple ID. The developer cannot read, list, export, or modify the contents of any user's private database — Apple does not provide that access. Apple's handling of iCloud data is governed by the <a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a>.</p>
+
+    <h3>Apple Health</h3>
+    <p>If you grant permission, Heroic reads bodyweight entries from Apple Health and writes strength-training workouts and bodyweight entries back to Apple Health. Apple Health data never leaves your device through Heroic — we do not transmit it anywhere. You can revoke Heroic's Health permissions at any time in <strong>Settings → Privacy &amp; Security → Health → Heroic</strong>.</p>
+
+    <h2>4. Purchases</h2>
+    <p>Program unlocks are sold as one-time, non-consumable in-app purchases processed entirely by <strong>Apple's App Store and StoreKit</strong>. Heroic does not see, store, or process your payment details. We receive only the transaction information Apple provides for entitlement verification (whether you own a given program). Apple's handling of purchase data is governed by the <a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a>.</p>
+
+    <h2>5. What we do <em>not</em> do</h2>
+    <ul>
+      <li>We do not run any backend servers and do not collect your data on our infrastructure.</li>
+      <li>We do not use third-party analytics, attribution, or crash-reporting SDKs.</li>
+      <li>We do not show advertising and do not share data with advertising networks.</li>
+      <li>We do not use the App Tracking Transparency tracking framework. Heroic does not track you across apps or websites.</li>
+      <li>We do not sell or rent your data. There is no data to sell — we do not have it.</li>
+    </ul>
+
+    <h2>6. Exercise demonstration videos</h2>
+    <p>Heroic plays short exercise-form videos hosted by us or by a CDN we contract with. Streaming a video involves your device making a standard network request to fetch the video file; the hosting provider may log standard request metadata (such as your IP address) for the purpose of serving the file. Heroic does not associate these requests with your identity.</p>
+
+    <h2>7. Your rights and choices</h2>
+    <ul>
+      <li><strong>Access &amp; export:</strong> all of your Heroic data lives in your device and your iCloud — you already have it. Apple's <a href="https://privacy.apple.com">Data &amp; Privacy</a> portal lets you download a copy of your iCloud data.</li>
+      <li><strong>Deletion:</strong> deleting the Heroic app from your devices and removing its data from <strong>Settings → Apple ID → iCloud → Manage Account Storage → Heroic</strong> removes all data Heroic has stored. Because we do not retain any copy of your data, no further request to us is needed.</li>
+      <li><strong>Apple Health permissions:</strong> revoke at any time via <strong>Settings → Privacy &amp; Security → Health → Heroic</strong>.</li>
+    </ul>
+
+    <h2>8. Children</h2>
+    <p>Heroic is not directed to children under 13 and does not knowingly collect data from children. The app is intended for adults engaged in strength training.</p>
+
+    <h2>9. International users</h2>
+    <p>Because Heroic does not transmit your data to developer-operated servers, no cross-border transfer occurs through Heroic. Your data resides on your device and in your iCloud account; iCloud's storage region and data-handling are determined by Apple based on your Apple ID country/region.</p>
+
+    <h2>10. Changes to this policy</h2>
+    <p>If we change this policy, the updated version will be posted at this URL with a new effective date. Material changes will additionally be surfaced in the app.</p>
+
+    <h2>11. Contact</h2>
+    <p>Questions about this policy or your data: <a href="mailto:ahmet.a.adem@gmail.com">ahmet.a.adem@gmail.com</a>.</p>
+
+    <footer>
+      © 2026 Ahmet Adem. Heroic is an independent app and is not affiliated with Apple Inc.
+    </footer>
+  </div>
+</body>
+</html>
