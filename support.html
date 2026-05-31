@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Heroic — Support</title>
+  <style>
+    :root {
+      --ink: #1a1a1a;
+      --muted: #5a5a5a;
+      --rule: #e6e6e6;
+      --accent: #c8102e;
+      --bg: #fafafa;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+      color: var(--ink);
+      background: var(--bg);
+      line-height: 1.55;
+      -webkit-font-smoothing: antialiased;
+    }
+    .wrap {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 48px 24px 96px;
+    }
+    header {
+      border-bottom: 1px solid var(--rule);
+      padding-bottom: 24px;
+      margin-bottom: 32px;
+    }
+    h1 {
+      font-size: 32px;
+      margin: 0 0 8px;
+      letter-spacing: -0.02em;
+    }
+    .meta { color: var(--muted); font-size: 14px; }
+    h2 {
+      font-size: 20px;
+      margin-top: 40px;
+      margin-bottom: 12px;
+      letter-spacing: -0.01em;
+    }
+    p, li { font-size: 16px; }
+    ul { padding-left: 22px; }
+    li { margin-bottom: 6px; }
+    a { color: var(--accent); }
+    .cta {
+      display: inline-block;
+      margin-top: 8px;
+      padding: 12px 18px;
+      background: var(--ink);
+      color: #fff;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .cta:hover { opacity: 0.9; }
+    .card {
+      background: #fff;
+      border: 1px solid var(--rule);
+      border-radius: 10px;
+      padding: 18px 22px;
+      margin-top: 16px;
+    }
+    .card p { margin: 0 0 8px; }
+    .card p:last-child { margin-bottom: 0; }
+    footer {
+      margin-top: 64px;
+      padding-top: 24px;
+      border-top: 1px solid var(--rule);
+      color: var(--muted);
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Heroic — Support</h1>
+      <div class="meta">Help, FAQs, and how to reach the developer.</div>
+    </header>
+
+    <div class="card">
+      <p><strong>Need help with the app?</strong> Email the developer directly — replies usually within a couple of days.</p>
+      <p><a class="cta" href="mailto:ahmet.a.adem@gmail.com?subject=Heroic%20support">Email support</a></p>
+    </div>
+
+    <h2>Frequently asked questions</h2>
+
+    <h2>How does the free week work?</h2>
+    <p>The first time you open a program, Heroic starts a 7-day free trial for that program. You can use every feature of that program during the trial. After 7 days the program is locked unless you purchase it. Each program has its own independent trial.</p>
+
+    <h2>How do I restore a purchase on a new device?</h2>
+    <p>Sign in with the same Apple ID you used to buy. Open Heroic and the purchase should restore automatically. If it doesn't, open the iOS <strong>Settings</strong> app, go to <strong>Apple ID → Media &amp; Purchases</strong>, and pull down to refresh — then reopen Heroic.</p>
+
+    <h2>I redeemed an offer code but the program is still locked.</h2>
+    <p>Force-quit Heroic and reopen it. Apple sometimes delays delivering the entitlement to a running app. If it still hasn't unlocked after a minute, email support with the date of redemption.</p>
+
+    <h2>My workout logs are missing on my other iPhone / iPad.</h2>
+    <p>Heroic syncs through your private iCloud account using CloudKit. Make sure on every device:</p>
+    <ul>
+      <li>You are signed into the same Apple ID.</li>
+      <li><strong>Settings → Apple ID → iCloud → iCloud Drive</strong> is on.</li>
+      <li>Heroic is listed and enabled under <strong>iCloud → Apps Using iCloud</strong>.</li>
+      <li>The device has network access — initial sync after install can take a few minutes.</li>
+    </ul>
+
+    <h2>How do I connect Apple Health?</h2>
+    <p>The first time the app needs Health access it will prompt you. To change permissions later, go to <strong>iOS Settings → Privacy &amp; Security → Health → Heroic</strong>.</p>
+
+    <h2>How do I delete all my Heroic data?</h2>
+    <p>Delete the Heroic app from your devices, then in <strong>iOS Settings → Apple ID → iCloud → Manage Account Storage → Heroic</strong>, tap <em>Delete Data</em>. This removes everything Heroic has stored.</p>
+
+    <h2>How do I request a refund?</h2>
+    <p>Refunds are handled by Apple, not the developer. Visit <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>, sign in with your Apple ID, find the Heroic purchase, and follow the refund flow.</p>
+
+    <h2>Bug reports and feature requests</h2>
+    <p>Email <a href="mailto:ahmet.a.adem@gmail.com?subject=Heroic%20bug%20or%20feature%20request">ahmet.a.adem@gmail.com</a>. Useful details for bug reports: iPhone model, iOS version, Heroic version, and the steps that triggered the issue.</p>
+
+    <h2>Privacy</h2>
+    <p>See the <a href="./">Heroic Privacy Policy</a>.</p>
+
+    <footer>
+      © 2026 Ahmet Adem. Heroic is an independent app and is not affiliated with Apple Inc.
+    </footer>
+  </div>
+</body>
+</html>
